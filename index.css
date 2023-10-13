@@ -1,6 +1,7 @@
 .container {
   display: block;
   display: flex;
+  justify-content: center;
 }
 
 body {
@@ -40,27 +41,10 @@ body {
 }
 
 /* media quary  */
-@media(max-width:400px){
+@media(max-width:430px){
   .container{
     flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    
-  }
-}
-@media(max-width:400px){
-  .container1{
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    
-  }
-}
-@media(max-width:400px){
-  .container2{
-    flex-direction: column;
+    width: 20rem;
     text-align: center;
     justify-content: center;
     margin-bottom: 10px;
@@ -68,33 +52,21 @@ body {
   }
 }
 
-@media(max-width:400px){
-  .container3{
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    
+
+@media(max-width:430px){
+  .card{
+    margin-top:10px;
+   
   }
+} 
+
+.card:hover{
+     color: white;
+    background-color: black;
+    
 }
 
-@media(max-width:400px){
-  .container4{
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    
-  }
-}
-
-@media(max-width:400px){
-  .container5{
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10px;
-    
-    
-  }
+.card-img-top:hover{
+  border-radius: 20px;
+  box-shadow: 20%;
 }
