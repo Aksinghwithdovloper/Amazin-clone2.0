@@ -70,3 +70,7 @@ body {
   border-radius: 20px;
   box-shadow: 20%;
 }
+
+.btn{
+  border-radius: 10pt;
+}
