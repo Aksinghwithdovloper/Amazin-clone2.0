@@ -1,0 +1,100 @@
+.container {
+  display: block;
+  display: flex;
+}
+
+body {
+  background-color: rgb(63, 85, 68);
+}
+
+/* this is a footer css */
+.ft2 {
+  border: 2px solid rgba(255, 255, 255, 0);
+  background-color: rgb(121, 81, 81);
+  color: white;
+  height: 250px;
+  display: flex;
+  font-size: x-large;
+
+}
+
+.fotn2 {
+  font-size: x-large;
+}
+
+.wrap {
+  text-align: start;
+  margin-left: 100px;
+}
+
+.font {
+  font-size: x-large;
+}
+
+.top {
+  text-align: center;
+  color: black;
+  background-color: aqua;
+  margin-top: 2%;
+
+}
+
+/* media quary  */
+@media(max-width:400px){
+  .container{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+}
+@media(max-width:400px){
+  .container1{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+}
+@media(max-width:400px){
+  .container2{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+}
+
+@media(max-width:400px){
+  .container3{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+}
+
+@media(max-width:400px){
+  .container4{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+  }
+}
+
+@media(max-width:400px){
+  .container5{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+    
+  }
+}
